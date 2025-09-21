@@ -1,0 +1,17 @@
+---
+collections:
+  # NetBox collection (inventory plugin, modules)
+  - name: netbox.netbox            # primary requirement
+  # Core/general utilities
+  - name: community.general
+  - name: community.network
+  # Common vendor sets (add/remove to taste to keep image lean)
+  - name: cisco.ios
+  - name: cisco.nxos
+  - name: arista.eos
+  - name: junipernetworks.junos
+  - name: vyos.vyos
+  - name: fortinet.fortios
+  # Optional: ADC / security (comment out if you want smaller image)
+  - name: f5networks.f5_modules
+  # - name: paloaltonetworks.panos
